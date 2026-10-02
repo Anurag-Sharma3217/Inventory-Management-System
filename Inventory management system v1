@@ -1,0 +1,40 @@
+import function, classfile, file_handling as files
+
+storage = classfile.Inventory([])
+files.load_file("Inventory.txt", storage)
+
+choice = 0
+while choice != 8:
+
+    choice = function.menu()
+
+    if choice == 1:
+        function.create_items(storage)
+        files.save_file(storage, "Inventory.txt")
+
+    elif choice == 2:
+        function.view(storage)
+
+    elif choice == 3:
+        function.find_item(storage)
+
+    elif choice == 4:
+        function.remove_items(storage)
+        files.save_file(storage, "Inventory.txt")
+
+    elif choice == 5:
+        function.updates_price(storage)
+        files.save_file(storage, "Inventory.txt")
+
+    elif choice == 6:
+        function.updates_quantity(storage)
+        files.save_file(storage, "Inventory.txt")
+
+    elif choice == 7:
+        function.Inventory_summary(storage)
+
+    elif choice == 8:
+        function.exit_program()
+
+    else:
+        function.invalid()

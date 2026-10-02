@@ -1,0 +1,85 @@
+# Inventory Management System
+
+A Python-based Inventory Management System built using Object-Oriented Programming (OOP), file handling, and a modular project structure.
+
+## Features
+
+* Add new items
+* View all items
+* Search items
+* Remove items
+* Update item prices
+* Update item quantities
+* Inventory summary
+* Automatic file saving
+* Automatic file loading on startup
+
+## Technologies Used
+
+* Python
+* OOP (Classes and Objects)
+* File Handling
+* Modular Programming
+
+## Project Structure
+
+```text
+Inventory Management System
+│
+├── main.py
+├── classfile.py
+├── function.py
+├── utils.py
+├── file_handling.py
+└── Inventory.txt
+```
+
+## How It Works
+
+Each item is stored as an object containing:
+
+* Name
+* Price
+* Quantity
+
+The inventory stores and manages all item objects.
+
+Data is saved into a text file and automatically loaded when the program starts.
+
+## Features Implemented
+
+### CRUD Operations
+
+* Create Item
+* Read Item
+* Update Item
+* Delete Item
+
+### Inventory Analysis
+
+* Search items
+* Calculate total inventory value
+* Count total items
+
+## What I Learned
+
+* Object-Oriented Programming
+* Classes and Objects
+* Composition
+* Project Structure
+* File Persistence
+* CRUD Operations
+* Git and GitHub
+* Refactoring and Code Organization
+
+## Future Improvements
+
+* Graphical User Interface (GUI)
+* Better Search System
+* Category Support
+* Sorting and Filtering
+* Inventory Reports
+
+## Author
+
+Anurag Sharma

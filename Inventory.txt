@@ -1,0 +1,3 @@
+Keyboard 2000 20
+Mouse 445 20
+Moniter 8500 25
